@@ -2,6 +2,8 @@ from django.test import TestCase
 from django.contrib.auth import get_user_model
 
 class ModelTests(TestCase):
+
+    
     def test_create_user_email_with_successful(self):
         """Creating a new user with an email is successfull"""
         email = 'bloodvoid10@hotmail.com'
